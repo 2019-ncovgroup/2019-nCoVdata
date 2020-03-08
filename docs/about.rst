@@ -22,20 +22,10 @@ synchrotron facility data analysis software packages.*
 Citations
 ---------
 
-We kindly request that you cite the following article 
-:cite:`decarlo:01` if you use TomoBank.
-
-.. bibliography:: bibtex/cite.bib
-   :style: plain
-   :labelprefix: A
 
 References
 ----------
 
-.. bibliography:: bibtex/ref.bib
-   :style: plain
-   :labelprefix: B
-   :all: 
 
 .. contents:: Contents:
    :local:
