@@ -1,6 +1,6 @@
 # Overview of the Argonne Led Coronavirus Computing Effort
 
-### Rick Stevens (Argonne National Laboratory, POC)
+##### Rick Stevens (Argonne National Laboratory, POC)
 
 
 Argonne is leading and coordinating five related computational efforts aimed at improving our
