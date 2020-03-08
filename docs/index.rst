@@ -12,9 +12,27 @@ The Argonne-Led Coronavirus Computing Effort
 
 *POC: Rick Stevens (Argonne National Laboratory)*
 
-Argonne is leading and coordinating five related computational efforts aimed at improving our understanding of the SARS-nCoV-2 virus, the associated COVID-19 disease, and accelerating the development of treatment options including antiviral drugs and vaccines.   This computational effort complements the experimental laboratory efforts at Argonne and elsewhere.  The overall effort includes team members from multiple laboratories (Argonne and Brookhaven) multiple universities (University of Chicago, University of Illinois, University of Virginia, Rutgers University and George Mason University) and private research centers (JC Venter Institute).   
+Argonne is leading and coordinating five related computational efforts aimed
+at improving our understanding of the SARS-nCoV-2 virus and the associated
+COVID-19 disease in order to accelerate the development of treatment options
+including antiviral drugs and vaccines.   This computational effort complements
+the experimental laboratory efforts at Argonne and elsewhere.  The growing
+team includes members from multiple laboratories (Argonne and Brookhaven),
+universities (University of Chicago, University of Illinois, University of
+Virginia, Rutgers University and George Mason University), and private research
+centers (JC Venter Institute).   
 
-As of Thursday March 5th, there were 57 researchers involved in the effort coordinating their work online via real-time messaging, conferencing, email and file sharing.  Argonne’s ALCF has made special queues available on the ALCF machines for the research groups to gain rapid access to needed computing and Argonne and Brookhaven have also identified additional computing resources for the team’s use.  These activities are combining bioinformatics analysis, simulation and machine learning and are building a local collection of relevant datasets.  In addition, Argonne is making time on our computers available to any research group that needs significant computing for coronavirus work.
+As of Thursday March 5th, there were 57 researchers on the team, coordinating
+their work online via real-time messaging, conferencing, email and file sharing.
+Argonne’s Leadership Computing Facility (`ALCF <https://alcf.anl.gov>`_)
+has made special queues available on the ALCF machines for the research groups
+to gain rapid access to needed computing. Argonne and Brookhaven have also
+identified additional computing resources for the team’s use.
+These activities are combining bioinformatics analysis, simulation, and
+machine learning while building a local collection of relevant datasets.
+
+In addition, Argonne is making time on our computers available to any
+research group that needs significant computing for coronavirus work.
 
 The five lines of attack include:
 
@@ -33,8 +51,6 @@ Aims to model the spread of the virus and the impact a pandemic could have on cr
 **Virus Evolutionary Analysis.** 
 Aims to better understand the origin and structure of the virus genome, the types of selection pressure the virus is under and the structure of sub-clades of the virus and the impact of mutations on virulence, infectivity, survival and transmission.  This project supports the other four activities by giving us a deeper understanding of the SARS-CoV-2 virus in the context of other coronaviruses.  Key questions are which animal hosts are the main natural reservoir for the virus, when did it cross from animal to human, is it adapting to human host and what are the likely future changes in the virus.
 
-
-*This site is based on the X-ray Tomography Data Bank or TomoBank*
 
 
 Content
