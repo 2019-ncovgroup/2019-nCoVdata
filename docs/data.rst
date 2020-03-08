@@ -1,0 +1,1 @@
+Datasets========All tomobank data sets are distributed in the native file format or in data exchange :cite:`decarlo:02` together with the python scriptto load and perform a basic reconstruction using tomoPy  :cite:`Gursoy:14a`... toctree::   data/docs.data.insitu
