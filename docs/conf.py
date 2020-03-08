@@ -18,8 +18,8 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 
 project = '2019-nCoV Data'
-copyright = '2020, Charlie Catlett'
-author = 'Charlie Catlett'
+copyright = '2020, Argonne National Laboratory'
+author = 'Rick Stevens, Charlie Catlett'
 
 
 # -- General configuration ---------------------------------------------------
