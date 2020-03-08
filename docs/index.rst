@@ -18,8 +18,7 @@ As of Thursday March 5th, there were 57 researchers involved in the effort coord
 
 The five lines of attack include:
 
-Computational drug screening
-----------------------------
+**Computational drug screening**
 Aims to accelerate the development of antiviral drugs. In this effort we are modeling proteins that play critical roles in the virus life cycle and selecting those for drug targets. We are screening three collections of drug candidates on these targets for inhibitor activity, 1) known and licensed drugs for quick repurposing opportunities (e.g. DrugBank), 2) library of 250M known small molecules that are drug like (e.g. PubChem) and 3) large-scale libraries (e.g. Enamine, ZINC) with billions of compounds that could be manufactured quickly for testing.  Our primary targets are existing drugs that could be repurposed quickly and that already are in the manufacturing pipelines.  Preliminary results are already being produced and will be made available to community wet labs in the coming days for additional testing and screening.
 
 Epitope analysis
