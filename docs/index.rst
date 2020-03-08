@@ -10,7 +10,7 @@ Welcome to 2019-nCoV Data's documentation!
    :width: 200px
    :alt: project
 
-The X-ray Tomography Data Bank or TomoBank, provides a repository of experimental 
+This site is based on the X-ray Tomography Data Bank or TomoBank, provides a repository of experimental 
 and simulated data sets with the aim to foster collaboration among computational scientists, 
 beamline scientists and experimentalists, to accelerate the development of tomographic 
 reconstruction and 3D visualization methods and to speed up their implementation in the various 
