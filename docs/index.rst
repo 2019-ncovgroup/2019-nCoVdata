@@ -4,7 +4,6 @@
    contain the root `toctree` directive.
 
 Overview of the Argonne Led Coronavirus Computing Effort
-
 ==========================================
 
 .. image:: img/ncovdata-logo.png
