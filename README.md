@@ -1,4 +1,7 @@
-# 2019-nCoVdata
+# Overview of the Argonne Led Coronavirus Computing Effort
+
+### Rick Stevens (Argonne National Laboratory, POC)
+
 
 Argonne is leading and coordinating five related computational efforts aimed at improving our
 understanding of the SARS-nCoV-2 virus, the associated COVID-19 disease, and accelerating
