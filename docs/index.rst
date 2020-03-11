@@ -10,8 +10,7 @@ This repository is for sharing data used and/or produced by the project. Larger 
 
 We also provide here a list of individual datasets, each with a link:
 
-* ZINC smile strings for around XXX compounds (retrieved from `ZINC <http://zinc.docking.org/>`_, 
-accessible `on Petrel <https://2019-ncov.e.globus.org/databases/ZINC/index.html>`_
+* ZINC smile strings for around XXX compounds (retrieved from `ZINC <http://zinc.docking.org/>`_, accessible `on Petrel <https://2019-ncov.e.globus.org/databases/ZINC/index.html>`_
 
 * PubChem canonical smiles (882 MB), `on Box <https://anl.app.box.com/file/631539842091>`_ 
 
