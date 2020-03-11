@@ -3,24 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Argonne Data Repo
+Argonne Data Repository
 ============================================
 
+This repository is for sharing data used and/or produced by the project. 
+
+`ZINC <http://zinc.docking.org/>`_ SMILE strings are
+`accessible on Petrel <https://2019-ncov.e.globus.org/databases/ZINC/index.html>`_.
 
 
-
-Content
--------
-
-.. toctree::
-   :maxdepth: 1
-
-   data
-   about
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
