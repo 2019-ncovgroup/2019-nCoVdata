@@ -10,11 +10,19 @@ This repository is for sharing data used and/or produced by the project. Larger 
 
 We also provide here a list of individual datasets, each with a link:
 
-* ZINC smile strings for around XXX compounds, retrieved from `ZINC <http://zinc.docking.org/>`_: `on Petrel <https://2019-ncov.e.globus.org/databases/ZINC/index.html>`_
+* ChemBL: `on Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FChEMBL%2F>`_
+
+* 310,682 ENA+Databank smile strings plus computed descriptors; 95 missing are `listed here <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2F>`_ (100 MB): `on Box <https://anl.app.box.com/file/630951461406>`_
+
+* ENAMIN_REAL: `on Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FENAMIN_REAL%2F>`_
 
 * PubChem canonical smiles (925 MB): `on Box <https://anl.app.box.com/file/631539842091>`_ and `on Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2F>`_
 
-* 310,682 ENA+Databank smile strings plus computed descriptors; 95 missing are `listed here <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2F>`_ (100 MB): `on Box <https://anl.app.box.com/file/630951461406>`_
+* ZINC smile strings for around XXX compounds, retrieved from `ZINC <http://zinc.docking.org/>`_: `on Petrel <https://2019-ncov.e.globus.org/databases/ZINC/index.html>`_
+
+* ZINC15: `on Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FZINC15%2F>`_
+
+* ZINC15_3D: `on Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FZINC15_3D%2F>`_
 
 * Smile strings plus XXXX computed descriptors for 15M molecules (116 GB), `on Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2F>`_
 
