@@ -6,7 +6,7 @@
 Argonne Data Repository
 ============================================
 
-This repository is for sharing data used and/or produced by the project. Larger files are `located on the ALCF Petrel data store <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2F>`_, from where they can be retrieved via Globus. Other files are `located on Argonne Box <https://anl.app.box.com/folder/105432421864>`_, but require Argonne credentials. 
+This repository is for sharing data used and/or produced by the project. Larger files are `located on the ALCF Petrel data store <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2F>`_, from where they can be retrieved via Globus (follow `this link <https://app.globus.org/groups/06e5c80b-6086-11ea-a9df-0ef992ed7ca1/about>`_ to request access permissions). Other files are `located on Argonne Box <https://anl.app.box.com/folder/105432421864>`_, but require Argonne credentials. 
 
 We also provide here a list of individual datasets, each with a link:
 
