@@ -16,10 +16,13 @@ We also provide here a list of individual datasets, each with a link:
 
 * SMILE strings plus computed descriptors for 15M molecules (116 GB), `on Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2F>`_
 
-The following are the SMILEs that we are working with:
+
+SMILES that we are working with
+-------------------------------
+
 
 =========== ============= ====== ===========
-Dataset     SMILES        Size   Location(s)
+Dataset     #SMILES       Size   Location(s)
 =========== ============= ====== ===========
 ChEMBL      1,870,462     103 MB `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FChEMBL%2F>`_
 DrugBank    9,679         664 KB `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FDrugBank%2F>`_
@@ -37,4 +40,14 @@ SAVI        283,194,319   989 GB `Petrel <https://app.globus.org/file-manager?or
 ZINC        21,957,636    1.3 GB `Petrel <https://2019-ncov.e.globus.org/databases/ZINC/index.html>`_
 ZINC15      1,475,876,222 92 GB  `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FZINC15%2F>`_, `deduplicated <https://app.globus.org/file-manager?destination_id=a386b552-6086-11ea-9688-0e56c063f437&destination_path=%2Fdatabases%2FZINC15%2F>`_
 =========== ============= ====== ===========
+
+Computed descriptors
+--------------------
+
+=========== ============= ====== ===========
+Dataset     #SMILES       Size   Location(s)
+=========== ============= ====== ===========
+TBD         TBD           TBD    TBD
+=========== ============= ====== ===========
+
 
