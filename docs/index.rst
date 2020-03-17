@@ -53,7 +53,7 @@ TBD         TBD           TBD    TBD
 
 Toxicology
 ----------
-============================================ =========== =========== ====== 
+============================================ =========== =========== =========== 
 Dataset                                      Author      Size        Location(s)
 ============================================ =========== =========== ===========  
 ena+db.can.uniq.csv.bsep.scaffold.class      Brettin     341.41MB    `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ftoxicology%2F>`_
