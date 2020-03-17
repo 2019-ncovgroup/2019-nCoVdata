@@ -6,14 +6,13 @@
 Argonne Data Repository
 ============================================
 
-This repository is for sharing data used and/or produced by the project. Larger files are `located on the ALCF Petrel data store <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2F>`_, from where they can be retrieved via Globus (follow `this link <https://app.globus.org/groups/ebcae90a-60c9-11ea-a443-0a990c2810ad/about>`_ to request access permissions). Other files are `located on Argonne Box <https://anl.app.box.com/folder/105432421864>`_, but require Argonne credentials.
+This repository is for sharing data used and/or produced by the project. Files are `located on the ALCF Petrel data store <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2F>`_, from where they can be retrieved via Globus (follow `this link <https://app.globus.org/groups/ebcae90a-60c9-11ea-a443-0a990c2810ad/about>`_ to request access permissions). Other files are `located on Argonne Box <https://anl.app.box.com/folder/105432421864>`_, but require Argonne credentials.
 
 When using `Globus <https://app.globus.org>`_, these endpoint names may be useful:
 
 * `2019-nCoV <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2F>`_: ALCF Petrel server, where the data listed below are to be found
 * `anl#lambda0 <https://app.globus.org/file-manager?origin_id=8715e4f0-1d34-11ea-9705-021304b0cca7&origin_path=%2Flambda_stor%2Fdata%2F>`_: Argonne Lambda machine
 * `anl#mllab <https://app.globus.org/file-manager?origin_id=2535d252-21ac-11e8-b75c-0ac6873fc732&origin_path=%2F~%2F>`_: Washington, Everett, nucleus
-
 
 SMILEs that we are working with
 -------------------------------
