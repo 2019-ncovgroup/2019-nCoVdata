@@ -48,7 +48,7 @@ Dataset      #SMILES  Size         Location(s)
 enaDB        310,682  0.1GB        `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2Fena15m_descriptors%2F>`_, `Box <https://anl.app.box.com/file/630951461406>`_
 ena15m       15M      116GB        `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2Fena15m_descriptors%2F>`_
 pubchem      97M      726GB        `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2Fpubchem128_descriptors%2F>`_
-Enamine_REAL 120,694  8.55TB      `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FEnamine_Real_Descriptors%2F>`_
+Enamine_REAL 120,694  8.55TB       `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FEnamine_Real_Descriptors%2F>`_
 ============ ======== ============ ============
 
 Note: "enaDB" is 310,682 ENA+Databank SMILES strings plus computed descriptors; 95 missing are `listed here <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2F>`_.
