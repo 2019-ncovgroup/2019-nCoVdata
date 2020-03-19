@@ -59,8 +59,7 @@ Toxicology
 Dataset                                      Author      Size        Checksum                          Location(s) 
 ============================================ =========== =========== ================================= =============
 ena+db.can.uniq.csv.bsep.scaffold.class      Brettin     341.41MB    9d1441d895b43f7c7f8a740d4b2aedaf  `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ftoxicology%2F>`_  
-ena+db_tox21_screening.csv                   Ward        84MB        89c442d16415fa145a0fb4e112d323c7  `_Petrel
-<https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ftoxicology%2Ftox21-screen-results%2F>
+ena+db_tox21_screening.csv                   Ward        84MB        89c442d16415fa145a0fb4e112d323c7  `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ftoxicology%2Ftox21-screen-results%2F>`_  
 ============================================ =========== =========== ================================= =============
 
 
