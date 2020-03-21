@@ -6,7 +6,7 @@
 Argonne Data Repository
 ============================================
 
-This repository is for sharing data used and/or produced by the project. Files are `located on the ALCF Petrel data store <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2F>`_, from where they can be retrieved via Globus (follow `this link <https://app.globus.org/groups/ebcae90a-60c9-11ea-a443-0a990c2810ad/about>`_ to request access permissions). Other files are `located on Argonne Box <https://anl.app.box.com/folder/105432421864>`_, but require Argonne credentials.
+This repository is for sharing data used and/or produced by the project. Files are `located on the ALCF Petrel data store <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2F>`_, from where they can be retrieved via Globus (follow `this link <https://app.globus.org/groups/ebcae90a-60c9-11ea-a443-0a990c2810ad/about>`_ to request access permissions). Other files are `located on Argonne Box <https://anl.app.box.com/folder/105432421864>`_, but require Argonne credentials. There is also a read only copy of the Box data in ALCF Petrel data store, under the ``/BoxMirror/`` directory.
 
 When using `Globus <https://app.globus.org>`_, these endpoint names may be useful:
 
@@ -14,6 +14,13 @@ When using `Globus <https://app.globus.org>`_, these endpoint names may be usefu
 * **anl#dtn_mira**: ALCF file systems, including Theta file system space at `/lus/theta-fs0/projects` (with 12 data transfer nodes [DTNs], better than endpoint **anl@theta**, which only has one)
 * `anl#lambda0 <https://app.globus.org/file-manager?origin_id=8715e4f0-1d34-11ea-9705-021304b0cca7&origin_path=%2Flambda_stor%2Fdata%2F>`_: Argonne Lambda machine
 * `anl#mllab <https://app.globus.org/file-manager?origin_id=2535d252-21ac-11e8-b75c-0ac6873fc732&origin_path=%2F~%2F>`_: Washington, Everett, nucleus
+
+How do I upload data to the site?
+---------------------------------
+
+1. Upload the data to the ``/incoming/`` folder on the ALCF Petrel datastore (`here <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fincoming%2F>`_).
+2. Post on the ``#data-incoming`` channel on Slack. *Make sure to provide a description of the data in a* ``README`` *or in the message you post to the slack.*
+3. A data librarian will will move the data to a permanent place on the Globus endpoint and update the website with a link to the data and the description.
 
 SMILEs that we are working with
 -------------------------------
@@ -46,8 +53,6 @@ Computed descriptors
 --------------------
 
 ============ ======== ============ ======== ============
-Dataset      #SMILES  Size         Files    Location 
-============ ======== ============ ======== ============
 enaDB        310,682  0.1GB                 `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2Fena15m_descriptors%2F>`_
 ena15m       15M      116GB        1,555    `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2Fena15m_descriptors%2F>`_
 pubchem      97M      726GB        9,755    `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2Fpubchem128_descriptors%2F>`_
@@ -59,10 +64,10 @@ Note: "enaDB" is 310,682 ENA+Databank SMILES strings plus computed descriptors; 
 Toxicology
 ----------
 ============================================ =========== =========== ================================= =============
-Dataset                                      Author      Size        Checksum                          Location(s) 
+Dataset                                      Author      Size        Checksum                          Location(s)
 ============================================ =========== =========== ================================= =============
-ena+db.can.uniq.csv.bsep.scaffold.class      Brettin     341.41MB    9d1441d895b43f7c7f8a740d4b2aedaf  `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ftoxicology%2F>`_  
-ena+db_tox21_screening.csv                   Ward        84MB        89c442d16415fa145a0fb4e112d323c7  `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ftoxicology%2Ftox21-screen-results%2F>`_  
+ena+db.can.uniq.csv.bsep.scaffold.class      Brettin     341.41MB    9d1441d895b43f7c7f8a740d4b2aedaf  `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ftoxicology%2F>`_
+ena+db_tox21_screening.csv                   Ward        84MB        89c442d16415fa145a0fb4e112d323c7  `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ftoxicology%2Ftox21-screen-results%2F>`_
 ============================================ =========== =========== ================================= =============
 
 
@@ -70,4 +75,3 @@ ML Docking
 -----------
 
 Pending
-
