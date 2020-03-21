@@ -45,9 +45,9 @@ ZINC15_3D   NA            NA     `Petrel <https://app.globus.org/file-manager?or
 Computed descriptors
 --------------------
 
-============ ======== ============ ======== ========
+============ ======== ============ ======== ============
 Dataset      #SMILES  Size         Files    Location 
-============ ======== ============ ======== ========
+============ ======== ============ ======== ============
 enaDB        310,682  0.1GB                 `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2Fena15m_descriptors%2F>`_
 ena15m       15M      116GB        1,555    `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2Fena15m_descriptors%2F>`_
 pubchem      97M      726GB        9,755    `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2Fpubchem128_descriptors%2F>`_
