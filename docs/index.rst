@@ -31,7 +31,7 @@ GDB-17      50,000,000    1.5 GB `Petrel <https://app.globus.org/file-manager?or
 HOPV15      350           27 KB  `Petrel <https://2019-ncov.e.globus.org/databases/HOPV15/smiles.txt>`_
 Moses       1,936,963     81 MB  `Petrel <https://2019-ncov.e.globus.org/databases/Moses/dataset_v1.csv>`_
 PubChem     97,584,282    925 MB pubcehm_canonical.tar.gz `Box <https://anl.app.box.com/file/631539842091>`_, `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fsmiles>`_
-SureChEMBL  291,525,153   35 GB  `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FSureChEMBL%2F>`_
+SureChEMBL* 291,525,153   35 GB  `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FSureChEMBL%2F>`_
 QM9         133,885       319 MB `Petrel <https://2019-ncov.e.globus.org/databases/QM9/dsgdb9nsd.xyz.tar>`_
 REP         10,148        519 KB `Petrel <https://2019-ncov.e.globus.org/databases/REP/smiles.txt>`_
 SAVI        283,194,319   989 GB `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FSAVI%2F>`_
@@ -39,6 +39,8 @@ ZINC        21,957,636    1.3 GB `Petrel <https://2019-ncov.e.globus.org/databas
 ZINC15      1,475,876,222 92 GB  `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FZINC15%2F>`_, `deduplicated <https://app.globus.org/file-manager?destination_id=a386b552-6086-11ea-9688-0e56c063f437&destination_path=%2Fdatabases%2FZINC15%2F>`_
 ZINC15_3D   NA            NA     `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FZINC15_3D%2F>`_
 =========== ============= ====== ===========
+
+*Note: The SureChEMBL numbers are way off. In fact there are just 18M SMILEs, and not all are unique.
 
 Computed descriptors
 --------------------
