@@ -11,7 +11,7 @@ This repository is for sharing data used and/or produced by the project. Files a
 When using `Globus <https://app.globus.org>`_, these endpoint names may be useful:
 
 * `2019-nCoV <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2F>`_: ALCF Petrel server, where the data listed below are to be found
-* **anl#dtn_mira**: ALCF file systems, including Theta file system space at `/lus/theta-fs0/projects` (with 12 data transfer nodes [DTNs], better than endpoint **anl@theta**, which only has one)
+* `alcf#dtn_mira <https://app.globus.org/file-manager?origin_id=e09e65f5-6d04-11e5-ba46-22000b92c6ec>`_: ALCF file systems, including Theta file system space at `/lus/theta-fs0/projects` (with 12 data transfer nodes [DTNs], better than endpoint `alcf#dtn_theta <https://app.globus.org/file-manager?origin_id=08925f04-569f-11e7-bef8-22000b9a448b>`_, which only has one)
 * `anl#lambda0 <https://app.globus.org/file-manager?origin_id=8715e4f0-1d34-11ea-9705-021304b0cca7&origin_path=%2Flambda_stor%2Fdata%2F>`_: Argonne Lambda machine
 * `anl#mllab <https://app.globus.org/file-manager?origin_id=2535d252-21ac-11e8-b75c-0ac6873fc732&origin_path=%2F~%2F>`_: Washington, Everett, nucleus
 
