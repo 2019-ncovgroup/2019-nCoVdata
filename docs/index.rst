@@ -6,7 +6,7 @@
 Argonne Data Repository
 ============================================
 
-This repository is for sharing data used and/or produced by the project. Files are `located on the ALCF Petrel data store <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2F>`_, from where they can be retrieved via Globus (follow `this link <https://app.globus.org/groups/ebcae90a-60c9-11ea-a443-0a990c2810ad/about>`_ to request access permissions). Other files are `located on Argonne Box <https://anl.app.box.com/folder/105432421864>`_, but require Argonne credentials. There is also a read only copy of the Box data in ALCF Petrel data store, under the ``/BoxMirror/`` `directory <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2FBoxMirror%2F>`_, which is also replicated to ``/theta_projects/CVD_Research/BoxMirror`` on Theta. These mirrors update approximately every hour from the data in Box.
+This repository is for sharing data and models used and/or produced by the project. Files are `located on the ALCF Petrel data store <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2F>`_, from where they can be retrieved via Globus (follow `this link <https://app.globus.org/groups/ebcae90a-60c9-11ea-a443-0a990c2810ad/about>`_ to request access permissions). Other files are `located on Argonne Box <https://anl.app.box.com/folder/105432421864>`_, but require Argonne credentials. There is also a read only copy of the Box data in ALCF Petrel data store, under the ``/BoxMirror/`` `directory <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2FBoxMirror%2F>`_, which is also replicated to ``/theta_projects/CVD_Research/BoxMirror`` on Theta. These mirrors update approximately every hour from the data in Box.
 
 When using `Globus <https://app.globus.org>`_, these endpoint names may be useful:
 
@@ -21,6 +21,27 @@ How do I upload data to the site?
 1. Upload the data to the ``/incoming/`` folder on the ALCF Petrel datastore (`here <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fincoming%2F>`_).
 2. Post on the ``#data-incoming`` channel on Slack. *Make sure to provide a description of the data in a* ``README`` *or in the message you post to the slack.*
 3. A data librarian will will move the data to a permanent place on the Globus endpoint and update the website with a link to the data and the description.
+
+
+Top ML-Predictions
+------------------
+The following table lists drugs our ML models score in the top 1% for several targets, and on what datasets the drugs come from. The `intersection` label are the drugs that scored in the top 1% under both binning models and the regressor models. (All links are to Petrel.)
+
+ ====================== ============== ====================
+ Target and Model       Dataset        Predictions by date
+ 3CLpro binner          ENAMIN_REAL    `March 17 <https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_3CLpro.bin.top1.csv>`_
+ 3CLpro regressor       ENAMIN_REAL    `March 17 <https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_3CLpro.reg.top1.csv>`_
+ 3CLpro intersection    ENAMIN_REAL    `March 17 <https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_3CLpro.top1.intersection.csv>`_
+ ADRP-P1 binner         ENAMIN_REAL    `March 17 <https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_ADRP-P1.bin.top1.csv>`_
+ ADRP-P1 regressor      ENAMIN_REAL    `March 17 <https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_ADRP-P1.reg.top1.csv>`_
+ ADRP-P1 intersection   ENAMIN_REAL    `March 17 <https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_ADRP-P1.top1.intersection.csv>`_
+ ====================== ============== ====================
+
+Top Docking Hits
+----------------
+
+We currently have hits for `vww`, `ADRP`, `ADRP-ADPR`, `CoV`, `Nsp10`, `nsp-15-CIT`, and `PLPro`. The data is organized by date `here <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2FBoxMirror%2Fdrug-screening%2FTop-docking-hits%2F>`_.
+
 
 SMILEs that we are working with
 -------------------------------
@@ -64,6 +85,17 @@ SureChEMBL   291M     133GB        1,792    `Petrel <https://app.globus.org/file
 ============ ======== ============ ======== ============
 
 Note: "enaDB" is 310,682 ENA+Databank SMILES strings plus computed descriptors; 95 missing are `listed here <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2F>`_.
+
+Molecular Fingerprints
+----------------------
+============ =========
+enaDB        TBA
+ena15m       `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2FFingerprints%2FEnamine_REAL_diversity_set_15.5M%2F>`_
+pubchem      `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2FFingerprints%2Fpubchem%2F>`_
+Enamine_REAL TBA
+ZINC15       TBA
+SureChEMBL   `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2FFingerprints%2FSureChEMBL%2F>`_
+============ =========
 
 Toxicology
 ----------
