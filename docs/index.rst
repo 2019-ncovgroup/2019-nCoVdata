@@ -20,7 +20,7 @@ How do I upload data to the site?
 
 1. Upload the data to the ``/incoming/`` folder on the ALCF Petrel datastore (`here <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fincoming%2F>`_).
 2. Post on the ``#data-incoming`` channel on Slack. *Make sure to provide a description of the data in a* ``README`` *or in the message you post to the slack.*
-3. A data librarian will will move the data to a permanent place on the Globus endpoint and update the website with a link to the data and the description.
+3. A data librarian will move the data to a permanent place on the Globus endpoint and update the website with a link to the data and the description.
 
 
 Top ML-Predictions
