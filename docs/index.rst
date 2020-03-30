@@ -72,9 +72,9 @@ ZINC15_3D   NA            NA     `Petrel <https://app.globus.org/file-manager?or
 
 Computed descriptors
 --------------------
-============ ======== ====== ======== ============
-Dataset      #SMILES  Size   #Files   Location(s)
-============ ======== ====== ======== ============
+============ ======== ============ ======== ============
+Dataset      #SMILES  Size         #Files   Location(s)
+============ ======== ============ ======== ============
 enaDB        310,682  0.1GB                 `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2Fena15m_descriptors%2F>`_
 ena15m       15M      116GB        1,555    `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2Fena15m_descriptors%2F>`_
 pubchem      97M      726GB        9,755    `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2Fpubchem128_descriptors%2F>`_
@@ -82,7 +82,6 @@ Enamine_REAL >1.2B    8.55TB       120,694  `Petrel <https://app.globus.org/file
 GDB-13       977M                           `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FGDB-13_descriptors%2F>`_
 ZINC15       >1.4B    10.98TB      147,137  `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FZinc15_descriptors%2F>`_
 SureChEMBL   291M     133GB        1,792    `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FSureChEMBL_descriptors%2F>`_
-
 ============ ======== ============ ======== ============
 
 Note: "enaDB" is 310,682 ENA+Databank SMILES strings plus computed descriptors; 95 missing are `listed here <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2F>`_.
