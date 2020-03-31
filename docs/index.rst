@@ -37,6 +37,16 @@ The following table lists drugs our ML models score in the top 1% for several ta
  ADRP-P1 intersection   ENAMIN_REAL    `March 17 <https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_ADRP-P1.top1.intersection.csv>`_
  ====================== ============== ====================
 
+Screen sets
+-----------
+
+Our researchers have put together datasets of molecules to screen. The molecules are taken from literature and matched to molecules in datasets by similarity search. The `.csv` files come in the following format: ``Dataset_source, score, target_canonical_smile, match_canonical_smile``.
+
+
+* `literature matches in the ENAMIN_REAL dataset <https://2019-ncov.e.globus.org/data/Top_Similar_Hits/top_100_similar_1000_targets/Enamine_Real_ben_literature_target_1000_targets_top_100_similar.top_100.csv>`_
+* `literature matches in the GDB-13 dataset <https://2019-ncov.e.globus.org/data/Top_Similar_Hits/top_100_similar_1000_targets/GDB13_ben_literature_target_1000_targets_top_100_similar.top_100.csv>`_
+
+
 Top Docking Hits
 ----------------
 
