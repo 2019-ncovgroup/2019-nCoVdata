@@ -1,0 +1,508 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Argonne Data Repository &mdash; Casablanca Data Cafe  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> Casablanca Data Cafe
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Argonne Data Repository</a><ul>
+<li><a class="reference internal" href="#how-do-i-upload-data-to-the-site">How do I upload data to the site?</a></li>
+<li><a class="reference internal" href="#top-ml-predictions">Top ML-Predictions</a></li>
+<li><a class="reference internal" href="#screen-sets">Screen sets</a></li>
+<li><a class="reference internal" href="#top-docking-hits">Top Docking Hits</a></li>
+<li><a class="reference internal" href="#smiles-that-we-are-working-with">SMILEs that we are working with</a></li>
+<li><a class="reference internal" href="#computed-descriptors">Computed descriptors</a></li>
+<li><a class="reference internal" href="#molecular-fingerprints">Molecular Fingerprints</a></li>
+<li><a class="reference internal" href="#toxicology">Toxicology</a></li>
+<li><a class="reference internal" href="#ml-docking">ML Docking</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Casablanca Data Cafe</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>Argonne Data Repository</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="argonne-data-repository">
+<h1>Argonne Data Repository<a class="headerlink" href="#argonne-data-repository" title="Permalink to this headline">¶</a></h1>
+<p>This repository is for sharing data and models used and/or produced by the project. Files are <a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2F">located on the ALCF Petrel data store</a>, from where they can be retrieved via Globus (<strong>to request access, follow</strong> <a class="reference external" href="https://app.globus.org/groups/ebcae90a-60c9-11ea-a443-0a990c2810ad/about">this link</a>). Other files are <a class="reference external" href="https://anl.app.box.com/folder/105432421864">located on Argonne Box</a>, but require Argonne credentials. There is also a read only copy of the Box data in ALCF Petrel data store, under the <code class="docutils literal notranslate"><span class="pre">/BoxMirror/</span></code> <a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2FBoxMirror%2F">directory</a>, which is also replicated to <code class="docutils literal notranslate"><span class="pre">/theta_projects/CVD_Research/BoxMirror</span></code> on Theta. These mirrors update approximately every hour from the data in Box.</p>
+<p><em>Argonne IT and cybersecurity have recently set up a Globus endpoint that talks directly to Box. This will require you to have an ANL login to the 2019 nCoV Box folder.</em> You can access it <a class="reference external" href="https://app.globus.org/file-manager?origin_id=e0815163-39cf-4107-a8de-46310df195dc&amp;origin_path=%2F">here</a></p>
+<p>When using <a class="reference external" href="https://app.globus.org">Globus</a>, these endpoint names may be useful:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2F">2019-nCoV</a>: ALCF Petrel server, where the data listed below are to be found</p></li>
+<li><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=e09e65f5-6d04-11e5-ba46-22000b92c6ec">alcf#dtn_mira</a>: ALCF file systems, including Theta file system space at <cite>/lus/theta-fs0/projects</cite> (with 12 data transfer nodes [DTNs], better than endpoint <a class="reference external" href="https://app.globus.org/file-manager?origin_id=08925f04-569f-11e7-bef8-22000b9a448b">alcf#dtn_theta</a>, which only has one)</p></li>
+<li><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=8715e4f0-1d34-11ea-9705-021304b0cca7&amp;origin_path=%2Flambda_stor%2Fdata%2F">anl#lambda0</a>: Argonne Lambda machine</p></li>
+<li><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=2535d252-21ac-11e8-b75c-0ac6873fc732&amp;origin_path=%2F~%2F">anl#mllab</a>: Washington, Everett, nucleus</p></li>
+</ul>
+<div class="section" id="how-do-i-upload-data-to-the-site">
+<h2>How do I upload data to the site?<a class="headerlink" href="#how-do-i-upload-data-to-the-site" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Upload the data to the <code class="docutils literal notranslate"><span class="pre">/incoming/</span></code> folder on the ALCF Petrel datastore (<a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fincoming%2F">here</a>).</p></li>
+<li><p>Post on the <code class="docutils literal notranslate"><span class="pre">#data-incoming</span></code> channel on Slack. <em>Make sure to provide a description of the data in a</em> <code class="docutils literal notranslate"><span class="pre">README</span></code> <em>or in the message you post to the slack.</em></p></li>
+<li><p>A data librarian will move the data to a permanent place on the Globus endpoint and update the website with a link to the data and the description.</p></li>
+</ol>
+</div>
+<div class="section" id="top-ml-predictions">
+<h2>Top ML-Predictions<a class="headerlink" href="#top-ml-predictions" title="Permalink to this headline">¶</a></h2>
+<p>The following table lists drugs our ML models score in the top 1% for several targets, and on what datasets the drugs come from. The <cite>intersection</cite> label are the drugs that scored in the top 1% under both binning models and the regressor models. (All links are to Petrel.)</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 10%" />
+<col style="width: 74%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Target and Model</p></td>
+<td><p>Dataset</p></td>
+<td><p>Predictions by date</p></td>
+</tr>
+<tr class="row-even"><td><p>3CLpro binner</p></td>
+<td><p>ENAMIN_REAL</p></td>
+<td><p><a class="reference external" href="https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_3CLpro.bin.top1.csv">March 17</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>3CLpro regressor</p></td>
+<td><p>ENAMIN_REAL</p></td>
+<td><p><a class="reference external" href="https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_3CLpro.reg.top1.csv">March 17</a></p></td>
+</tr>
+<tr class="row-even"><td><p>3CLpro intersection</p></td>
+<td><p>ENAMIN_REAL</p></td>
+<td><p><a class="reference external" href="https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_3CLpro.top1.intersection.csv">March 17</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>ADRP-P1 binner</p></td>
+<td><p>ENAMIN_REAL</p></td>
+<td><p><a class="reference external" href="https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_ADRP-P1.bin.top1.csv">March 17</a></p></td>
+</tr>
+<tr class="row-even"><td><p>ADRP-P1 regressor</p></td>
+<td><p>ENAMIN_REAL</p></td>
+<td><p><a class="reference external" href="https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_ADRP-P1.reg.top1.csv">March 17</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>ADRP-P1 intersection</p></td>
+<td><p>ENAMIN_REAL</p></td>
+<td><p><a class="reference external" href="https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_ADRP-P1.top1.intersection.csv">March 17</a></p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="screen-sets">
+<h2>Screen sets<a class="headerlink" href="#screen-sets" title="Permalink to this headline">¶</a></h2>
+<p>Our researchers have put together datasets of molecules to screen. The molecules are taken from literature and matched to molecules in datasets by similarity search. The <cite>.csv</cite> files come in the following format: <code class="docutils literal notranslate"><span class="pre">Dataset_source,</span> <span class="pre">score,</span> <span class="pre">target_canonical_smile,</span> <span class="pre">match_canonical_smile</span></code>.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://2019-ncov.e.globus.org/data/Top_Similar_Hits/top_100_similar_1000_targets/Enamine_Real_ben_literature_target_1000_targets_top_100_similar.top_100.csv">literature matches in the ENAMIN_REAL dataset</a></p></li>
+<li><p><a class="reference external" href="https://2019-ncov.e.globus.org/data/Top_Similar_Hits/top_100_similar_1000_targets/GDB13_ben_literature_target_1000_targets_top_100_similar.top_100.csv">literature matches in the GDB-13 dataset</a></p></li>
+</ul>
+</div>
+<div class="section" id="top-docking-hits">
+<h2>Top Docking Hits<a class="headerlink" href="#top-docking-hits" title="Permalink to this headline">¶</a></h2>
+<p>We currently have hits for <cite>vww</cite>, <cite>ADRP</cite>, <cite>ADRP-ADPR</cite>, <cite>CoV</cite>, <cite>Nsp10</cite>, <cite>nsp-15-CIT</cite>, and <cite>PLPro</cite>. The data is organized by date <a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2FBoxMirror%2Fdrug-screening%2FTop-docking-hits%2F">here</a>.</p>
+</div>
+<div class="section" id="smiles-that-we-are-working-with">
+<h2>SMILEs that we are working with<a class="headerlink" href="#smiles-that-we-are-working-with" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 1%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Dataset</p></th>
+<th class="head"><p>#SMILES</p></th>
+<th class="head"><p>Size</p></th>
+<th class="head"><p>Location(s)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ChEMBL</p></td>
+<td><p>1,870,462</p></td>
+<td><p>103 MB</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdatabases%2FChEMBL%2F">Petrel</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>DrugBank</p></td>
+<td><p>9,679</p></td>
+<td><p>664 KB</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdatabases%2FDrugBank%2F">Petrel</a></p></td>
+</tr>
+<tr class="row-even"><td><p>eMolecule</p></td>
+<td><p>22,318,616</p></td>
+<td><p>830 MB</p></td>
+<td><p>version 2019-04-01 <a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdatabases%2FeMolecules%2F">Petrel</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>ENAMIN_REAL</p></td>
+<td><p>&gt;1.2B</p></td>
+<td><p>32 GB</p></td>
+<td><p>20 zip file <a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdatabases%2FENAMIN_REAL%2F">Petrel</a> (<a class="reference external" href="https://enamine.net/library-synthesis/real-compounds/real-database">source</a>), <a class="reference external" href="https://app.globus.org/file-manager?destination_id=a386b552-6086-11ea-9688-0e56c063f437&amp;destination_path=%2Fdatabases%2FENAMIN_REAL%2F">deduplicated</a></p></td>
+</tr>
+<tr class="row-even"><td><p>GDB-13</p></td>
+<td><p>977,468,301</p></td>
+<td><p>2.7 GB</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdatabases%2FGDB-13%2F">Petrel</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>GDB-17</p></td>
+<td><p>50,000,000</p></td>
+<td><p>1.5 GB</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdatabases%2FGDB-17%2F">Petrel</a></p></td>
+</tr>
+<tr class="row-even"><td><p>HOPV15</p></td>
+<td><p>350</p></td>
+<td><p>27 KB</p></td>
+<td><p><a class="reference external" href="https://2019-ncov.e.globus.org/databases/HOPV15/smiles.txt">Petrel</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Moses</p></td>
+<td><p>1,936,963</p></td>
+<td><p>81 MB</p></td>
+<td><p><a class="reference external" href="https://2019-ncov.e.globus.org/databases/Moses/dataset_v1.csv">Petrel</a></p></td>
+</tr>
+<tr class="row-even"><td><p>PubChem</p></td>
+<td><p>97,584,282</p></td>
+<td><p>925 MB</p></td>
+<td><p>pubcehm_canonical.tar.gz <a class="reference external" href="https://anl.app.box.com/file/631539842091">Box</a>, <a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2Fsmiles">Petrel</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>SureChEMBL*</p></td>
+<td><p>291,525,153</p></td>
+<td><p>35 GB</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdatabases%2FSureChEMBL%2F">Petrel</a></p></td>
+</tr>
+<tr class="row-even"><td><p>QM9</p></td>
+<td><p>133,885</p></td>
+<td><p>319 MB</p></td>
+<td><p><a class="reference external" href="https://2019-ncov.e.globus.org/databases/QM9/dsgdb9nsd.xyz.tar">Petrel</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>REP</p></td>
+<td><p>10,148</p></td>
+<td><p>519 KB</p></td>
+<td><p><a class="reference external" href="https://2019-ncov.e.globus.org/databases/REP/smiles.txt">Petrel</a></p></td>
+</tr>
+<tr class="row-even"><td><p>SAVI</p></td>
+<td><p>283,194,319</p></td>
+<td><p>989 GB</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdatabases%2FSAVI%2F">Petrel</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>ZINC</p></td>
+<td><p>21,957,636</p></td>
+<td><p>1.3 GB</p></td>
+<td><p><a class="reference external" href="https://2019-ncov.e.globus.org/databases/ZINC/index.html">Petrel</a></p></td>
+</tr>
+<tr class="row-even"><td><p>ZINC15</p></td>
+<td><p>1,475,876,222</p></td>
+<td><p>92 GB</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdatabases%2FZINC15%2F">Petrel</a>, <a class="reference external" href="https://app.globus.org/file-manager?destination_id=a386b552-6086-11ea-9688-0e56c063f437&amp;destination_path=%2Fdatabases%2FZINC15%2F">deduplicated</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>ZINC15_3D</p></td>
+<td><p>NA</p></td>
+<td><p>NA</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdatabases%2FZINC15_3D%2F">Petrel</a></p></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#id24"><span class="problematic" id="id25">*</span></a>Note: The SureChEMBL numbers are way off. In fact there are just 18M SMILEs, and not all are unique.</p>
+</div>
+<div class="section" id="computed-descriptors">
+<h2>Computed descriptors<a class="headerlink" href="#computed-descriptors" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 3%" />
+<col style="width: 2%" />
+<col style="width: 3%" />
+<col style="width: 2%" />
+<col style="width: 89%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Dataset</p></th>
+<th class="head"><p>#SMILES</p></th>
+<th class="head"><p>Size</p></th>
+<th class="head"><p>#Files</p></th>
+<th class="head"><p>Location(s)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>enaDB</p></td>
+<td><p>310,682</p></td>
+<td><p>0.1GB</p></td>
+<td></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2Fdescriptors%2Fena15m_descriptors%2F">Petrel</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>ena15m</p></td>
+<td><p>15M</p></td>
+<td><p>116GB</p></td>
+<td><p>1,555</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2Fdescriptors%2Fena15m_descriptors%2F">Petrel</a> (<a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2Fdescriptors%2Fena15m_descriptors%2Fmanifest%2F">manifest</a>)</p></td>
+</tr>
+<tr class="row-even"><td><p>pubchem</p></td>
+<td><p>97M</p></td>
+<td><p>726GB</p></td>
+<td><p>9,755</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2Fdescriptors%2Fpubchem128_descriptors%2F">Petrel</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Enamine_REAL</p></td>
+<td><p>&gt;1.2B</p></td>
+<td><p>8.55TB</p></td>
+<td><p>120,694</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2Fdescriptors%2FEnamine_Real_Descriptors%2F">Petrel</a> (<a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2Fdescriptors%2FEnamine_Real_Descriptors%2Fmanifest%2F">manifest</a>)</p></td>
+</tr>
+<tr class="row-even"><td><p>GDB-13</p></td>
+<td><p>977M</p></td>
+<td><p>7.24TB</p></td>
+<td><p>97,739</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2Fdescriptors%2FGDB-13_descriptors%2F">Petrel</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>ZINC15</p></td>
+<td><p>&gt;1.4B</p></td>
+<td><p>10.98TB</p></td>
+<td><p>147,137</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2Fdescriptors%2FZinc15_descriptors%2F">Petrel</a> (<a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2Fdescriptors%2FZinc15_descriptors%2Fmanifest%2F">manifest</a>)</p></td>
+</tr>
+<tr class="row-even"><td><p>SureChEMBL</p></td>
+<td><p>291M</p></td>
+<td><p>133GB</p></td>
+<td><p>1,792</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2Fdescriptors%2FSureChEMBL_descriptors%2F">Petrel</a></p></td>
+</tr>
+</tbody>
+</table>
+<p>Note: “enaDB” is 310,682 ENA+Databank SMILES strings plus computed descriptors; 95 missing are <a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2F">listed here</a>.</p>
+</div>
+<div class="section" id="molecular-fingerprints">
+<h2>Molecular Fingerprints<a class="headerlink" href="#molecular-fingerprints" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 7%" />
+<col style="width: 93%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>enaDB</p></td>
+<td><p>TBA</p></td>
+</tr>
+<tr class="row-even"><td><p>ena15m</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2FFingerprints%2FEnamine_REAL_diversity_set_15.5M%2F">Petrel</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>pubchem</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2FFingerprints%2Fpubchem%2F">Petrel</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Enamine_REAL</p></td>
+<td><p>TBA</p></td>
+</tr>
+<tr class="row-odd"><td><p>ZINC15</p></td>
+<td><p>TBA</p></td>
+</tr>
+<tr class="row-even"><td><p>SureChEMBL</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2FFingerprints%2FSureChEMBL%2F">Petrel</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="toxicology">
+<h2>Toxicology<a class="headerlink" href="#toxicology" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 13%" />
+<col style="width: 61%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Dataset</p></th>
+<th class="head"><p>Author</p></th>
+<th class="head"><p>Size</p></th>
+<th class="head"><p>Checksum</p></th>
+<th class="head"><p>Location(s)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ena+db.can.uniq.csv.bsep.scaffold.class</p></td>
+<td><p>Brettin</p></td>
+<td><p>341.41MB</p></td>
+<td><p>9d1441d895b43f7c7f8a740d4b2aedaf</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2Ftoxicology%2F">Petrel</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>ena+db_tox21_screening.csv</p></td>
+<td><p>Ward</p></td>
+<td><p>84MB</p></td>
+<td><p>89c442d16415fa145a0fb4e112d323c7</p></td>
+<td><p><a class="reference external" href="https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&amp;origin_path=%2Fdata%2Ftoxicology%2Ftox21-screen-results%2F">Petrel</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="ml-docking">
+<h2>ML Docking<a class="headerlink" href="#ml-docking" title="Permalink to this headline">¶</a></h2>
+<p>Pending</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Argonne National Laboratory
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
