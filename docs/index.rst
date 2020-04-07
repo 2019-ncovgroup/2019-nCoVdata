@@ -1,5 +1,8 @@
-Polaris Collaboration AI- and HPC-enabled Lead Generation for SARS-CoV-2 Data Repository
-========================================================================================
+The Polaris Collaboration Data Repository
+=========================================
+
+A Data Repository to Share AI- and HPC-enabled Generated for SARS-CoV-2 Drugs
+-----------------------------------------------------------------------------
 
 This repository is for sharing data and models used and/or produced by the Polaris collaboration. 
 These data will be updated regularly as the collaboration produces new results.
@@ -10,10 +13,10 @@ from where they can be retrieved via Globus (**to request access, follow**
 
 Data Processing Pipeline
 =========================
-The data processing pipeline is used compute different types of features for billions of small molecules. 
-The pipeline first converts the molecular SMILES representation to canonical SMILES and removes duplicates. 
-It then creates three  different types of features: 1) molecular descriptors using `Mordred <https://github.com/mordred-descriptor/mordred>`; 
-2) molecular fingerprints that encode the structure of molecules; and 3) 2-d images of molecular structure. 
+The data processing pipeline is used to compute different types of features and representations of billions of small molecules. 
+The pipeline first converts the SMILES representation for each molecule to the canonical SMILES form and removes duplicates. 
+It then creates three different types of features: 1) molecular descriptors using `Mordred <https://github.com/mordred-descriptor/mordred>`; 
+2) molecular fingerprints that encode the structure of molecules; and 3) 2D images of the molecular structure. 
 These features are used as input to various machine learning and deep learning models that predict important
 characteristics including docking scores, toxicity, and more.
 
@@ -81,26 +84,17 @@ ZINC15       TBA
 SureChEMBL   `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2FFingerprints%2FSureChEMBL%2F>`_
 ============ =========
 
+Literature-Derived Screening Sets
+=================================
 
-Top ML-Predictions
-==================
+Our researchers have assembled datasets of molecules to screen based on literature precedence. The molecules are extracted from literature manually
+and matched to molecules in datasets by similarity search. The `.csv` files come in the following format: 
+``Dataset_source, score, target_canonical_smile, match_canonical_smile``.
 
-The following table provides links to lists of drug candidates that our ML models 
-score in the top 1% for several targets,and on what datasets the drugs come from. 
-We have developed two primary models a binning model and a regressor model. The 
-binning model XYZ, and the regressor model XYZ The `intersection` label are the drugs 
-that scored in the top 1% under both binning models and the regressor models. 
-(All links are to locations on Petrel)
+* `literature matches in the ENAMIN_REAL dataset <https://2019-ncov.e.globus.org/data/Top_Similar_Hits/top_100_similar_1000_targets/Enamine_Real_ben_literature_target_1000_targets_top_100_similar.top_100.csv>`_
+* `literature matches in the GDB-13 dataset <https://2019-ncov.e.globus.org/data/Top_Similar_Hits/top_100_similar_1000_targets/GDB13_ben_literature_target_1000_targets_top_100_similar.top_100.csv>`_
 
- ====================== ============== ====================
- Target and Model       Dataset        Predictions by date
- 3CLpro binner          ENAMIN_REAL    `March 17 <https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_3CLpro.bin.top1.csv>`_
- 3CLpro regressor       ENAMIN_REAL    `March 17 <https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_3CLpro.reg.top1.csv>`_
- 3CLpro intersection    ENAMIN_REAL    `March 17 <https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_3CLpro.top1.intersection.csv>`_
- ADRP-P1 binner         ENAMIN_REAL    `March 17 <https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_ADRP-P1.bin.top1.csv>`_
- ADRP-P1 regressor      ENAMIN_REAL    `March 17 <https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_ADRP-P1.reg.top1.csv>`_
- ADRP-P1 intersection   ENAMIN_REAL    `March 17 <https://2019-ncov.e.globus.org/incoming/top1/Enamine_Infer_ADRP-P1.top1.intersection.csv>`_
- ====================== ============== ====================
+A natural language processing model, trained to automate aspects of this process, will be made available in the future.
 
 
 Toxicology
@@ -137,15 +131,26 @@ Top Docking Hits
 
 We currently have hits for `vww`, `ADRP`, `ADRP-ADPR`, `CoV`, `Nsp10`, `nsp-15-CIT`, and `PLPro`. The data are organized by date `here <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2FBoxMirror%2Fdrug-screening%2FTop-docking-hits%2F>`_.
 
+Top ML-Predictions
+==================
 
+The following table provides links to lists of drug candidates that our ML models 
+score in the top 1% for several targets,and on what datasets the drugs come from. 
+We have developed two primary models a binning model and a regressor model. The 
+binning model XYZ, and the regressor model XYZ The `intersection` label are the drugs 
+that scored in the top 1% under both binning models and the regressor models. 
+(All links are to locations on Petrel)
 
-Screen Sets
------------
+ ====================== ============== ====================
+ Target and Model       Dataset        Predictions by date
+ 3CLpro binner          ENAMIN_REAL    TBA
+ 3CLpro regressor       ENAMIN_REAL    TBA
+ 3CLpro intersection    ENAMIN_REAL    TBA
+ ADRP-P1 binner         ENAMIN_REAL    TBA
+ ADRP-P1 regressor      ENAMIN_REAL    TBA
+ ADRP-P1 intersection   ENAMIN_REAL    TBA
+ ====================== ============== ====================
 
-Our researchers have put together datasets of molecules to screen. The molecules are taken from literature and matched to molecules in datasets by similarity search. The `.csv` files come in the following format: ``Dataset_source, score, target_canonical_smile, match_canonical_smile``.
-
-* `literature matches in the ENAMIN_REAL dataset <https://2019-ncov.e.globus.org/data/Top_Similar_Hits/top_100_similar_1000_targets/Enamine_Real_ben_literature_target_1000_targets_top_100_similar.top_100.csv>`_
-* `literature matches in the GDB-13 dataset <https://2019-ncov.e.globus.org/data/Top_Similar_Hits/top_100_similar_1000_targets/GDB13_ben_literature_target_1000_targets_top_100_similar.top_100.csv>`_
 
 
 Additional Data Access Details
