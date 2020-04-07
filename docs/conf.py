@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'Argonne Data Repository'
+project = 'Polaris Data Repository'
 copyright = '2020, Argonne National Laboratory'
 author = 'The AI- and HPC-enabled Lead Generation for SARS-CoV-2 Collaboration'
 
@@ -86,12 +86,12 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
     html_theme = 'sphinx_rtd_theme'
     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
-html_theme_options = {
+    html_theme_options = {
     'canonical_url': '',
     'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in your dashboard
     'logo_only': False,
     'display_version': True,
-    'prev_next_buttons_location': 'bottom',
+    'prev_next_buttons_location': 'top',
     'style_external_links': False,
     'vcs_pageview_mode': '',
     # Toc options

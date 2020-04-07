@@ -1,7 +1,7 @@
-The AI- and HPC-enabled Lead Generation for SARS-CoV-2 Data Repository
-======================================================================
+Polaris Collaboration AI- and HPC-enabled Lead Generation for SARS-CoV-2 Data Repository
+========================================================================================
 
-This repository is for sharing data and models used and/or produced by the project. 
+This repository is for sharing data and models used and/or produced by the Polaris collaboration. 
 These data will be updated regularly as the collaboration produces new results.
 Shared data are `located on the ALCF Petrel data store <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2F>`_, 
 from where they can be retrieved via Globus (**to request access, follow** 
@@ -10,6 +10,12 @@ from where they can be retrieved via Globus (**to request access, follow**
 
 Data Pipeline
 ==============
+The data processing pipelines are computing different types of features of billions of small molecules. 
+The pipeline first converts SMILES to canonical SMILES and removes duplicates. It then creates three 
+different types of features: 1) molecular descritors using mordred; 2) molecular fingerprints that 
+encode the structure of molecules; and 3) 2-d images of molecular structure. These features are used as
+input to various machine learning and deep learning models that predict important characteristics including 
+docking score.
 
 .. image:: ./assets/pipeline.png
   :width: 800
