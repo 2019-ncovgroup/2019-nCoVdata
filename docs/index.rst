@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Velocity: The AI- and HPC-enabled Lead Generation for SARS-CoV-2 Data Repository
+The AI- and HPC-enabled Lead Generation for SARS-CoV-2 Data Repository
 ===================
 
-The Velocity repository is for sharing data and models used and/or produced by the project. 
+This repository is for sharing data and models used and/or produced by the project. 
 These data will be updated regularly as the collaboration produces new results.
 Shared data are `located on the ALCF Petrel data store <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2F>`_, 
 from where they can be retrieved via Globus (**to request access, follow** 
@@ -14,9 +14,10 @@ from where they can be retrieved via Globus (**to request access, follow**
 
 Data Pipeline
 ==================
+
 .. image:: ./assets/pipeline.png
   :width: 800
-  :alt: Alternative text
+  :alt: Data pipeline
 
 Collected Datasets
 ===================
@@ -28,11 +29,13 @@ Dataset     #SMILES       Size   Location(s)
 =========== ============= ====== ===========
 ChEMBL      1,870,462     103 MB `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FChEMBL%2F>`_
 DrugBank    9,679         664 KB `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FDrugBank%2F>`_
+DUDE        101,337       6.9 MB `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fsmiles%2FDUDE%2F>`_
 eMolecule   22,318,616    830 MB version 2019-04-01 `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FeMolecules%2F>`_
 ENAMIN_REAL >1.2B         32 GB  20 zip file `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FENAMIN_REAL%2F>`_ (`source <https://enamine.net/library-synthesis/real-compounds/real-database>`_), `deduplicated <https://app.globus.org/file-manager?destination_id=a386b552-6086-11ea-9688-0e56c063f437&destination_path=%2Fdatabases%2FENAMIN_REAL%2F>`_
 GDB-13      977,468,301   2.7 GB `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FGDB-13%2F>`_
 GDB-17      50,000,000    1.5 GB `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FGDB-17%2F>`_
 HOPV15      350           27 KB  `Petrel <https://2019-ncov.e.globus.org/databases/HOPV15/smiles.txt>`_
+L1000       10148         603 KB `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fsmiles%2FL1000%2F>`_
 Moses       1,936,963     81 MB  `Petrel <https://2019-ncov.e.globus.org/databases/Moses/dataset_v1.csv>`_
 PubChem     97,584,282    925 MB pubcehm_canonical.tar.gz `Box <https://anl.app.box.com/file/631539842091>`_, `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fsmiles>`_
 SureChEMBL* 291,525,153   35 GB  `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdatabases%2FSureChEMBL%2F>`_
@@ -54,6 +57,7 @@ Dataset      #SMILES  Size         #Files   Location(s)
 ============ ======== ============ ======== ============
 enaDB        310,682  0.1GB                 `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2Fena15m_descriptors%2F>`_
 ena15m       15M      116GB        1,555    `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2Fena15m_descriptors%2F>`_ (`manifest <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2Fena15m_descriptors%2Fmanifest%2F>`_)
+DUDE        101,337       6.9 MB `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fsmiles%2FDUDE%2F>`_
 pubchem      97M      726GB        9,755    `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2Fpubchem128_descriptors%2F>`_
 Enamine_REAL >1.2B    8.55TB       120,694  `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FEnamine_Real_Descriptors%2F>`_ (`manifest <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FEnamine_Real_Descriptors%2Fmanifest%2F>`_)
 GDB-13       977M     7.24TB       97,739   `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FGDB-13_descriptors%2F>`_
