@@ -8,14 +8,14 @@ from where they can be retrieved via Globus (**to request access, follow**
 `this link <https://app.globus.org/groups/ebcae90a-60c9-11ea-a443-0a990c2810ad/about>`_). 
 
 
-Data Pipeline
-==============
-The data processing pipelines are computing different types of features of billions of small molecules. 
-The pipeline first converts SMILES to canonical SMILES and removes duplicates. It then creates three 
-different types of features: 1) molecular descritors using mordred; 2) molecular fingerprints that 
-encode the structure of molecules; and 3) 2-d images of molecular structure. These features are used as
-input to various machine learning and deep learning models that predict important characteristics including 
-docking score.
+Data Processing Pipeline
+=========================
+The data processing pipeline is used compute different types of features for billions of small molecules. 
+The pipeline first converts the molecular SMILES representation to canonical SMILES and removes duplicates. 
+It then creates three  different types of features: 1) molecular descriptors using `Mordred <https://github.com/mordred-descriptor/mordred>`; 
+2) molecular fingerprints that encode the structure of molecules; and 3) 2-d images of molecular structure. 
+These features are used as input to various machine learning and deep learning models that predict important
+characteristics including docking scores, toxicity, and more.
 
 .. image:: ./assets/pipeline.png
   :width: 800

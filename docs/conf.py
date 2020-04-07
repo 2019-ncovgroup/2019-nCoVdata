@@ -88,7 +88,7 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 
     html_theme_options = {
     'canonical_url': '',
-    'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in your dashboard
+    'analytics_id': 'UA-163049723-1',  #  Provided by Google in your dashboard
     'logo_only': False,
     'display_version': True,
     'prev_next_buttons_location': 'top',
