@@ -26,7 +26,7 @@ characteristics including docking scores, toxicity, and more.
 
 Collected Datasets
 ===================
-The following datasets have been collected and made available on Petrel for easy access.
+The following datasets have been collected and made available on Petrel for simplified access.
 We are working on a combined database covering all molecules from these datasets.
 
 =========== ============= ====== ===========
@@ -84,6 +84,20 @@ ZINC15       TBA
 SureChEMBL   `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2FFingerprints%2FSureChEMBL%2F>`_
 ============ =========
 
+Molecular Images
+======================
+
+============ =========
+TBA          TBA
+TBA          TBA 
+TBA          TBA
+TBA          TBA 
+TBA          TBA
+TBA          TBA 
+============ =========
+
+
+
 Literature-Derived Screening Sets
 =================================
 
@@ -125,11 +139,15 @@ Pending
 
 ML Docking
 ----------
+TBA
+
 
 Top Docking Hits
 ----------------
 
-We currently have hits for `vww`, `ADRP`, `ADRP-ADPR`, `CoV`, `Nsp10`, `nsp-15-CIT`, and `PLPro`. The data are organized by date `here <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2FBoxMirror%2Fdrug-screening%2FTop-docking-hits%2F>`_.
+We are currently working on hits for `vww`, `ADRP`, `ADRP-ADPR`, `CoV`, `Nsp10`, `nsp-15-CIT`, and `PLPro`. 
+Results TBA
+
 
 Top ML-Predictions
 ==================
@@ -183,4 +201,35 @@ but require Argonne credentials. There is also a read only copy of the Box data 
 data store, under the ``/BoxMirror/`` `directory <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2FBoxMirror%2F>`_, 
 which is also replicated to ``/theta_projects/CVD_Research/BoxMirror`` on Theta.
 These mirrors update approximately every hour from the data in Box.
+
+
+Acknowledgements
+==============================
+Data storage and computational support for this research project has been generously supported by the following resources.
+
+Petrel Data Service at the Argonne Leadership Computing Facility (ALCF)
+-----------------------------------------------------------------------
+This research used resources of the Argonne Leadership Computing
+Facility, which is a DOE Office of Science User Facility supported under
+Contract DE-AC02-06CH11357.
+`Petrel <https://press3.mcs.anl.gov/petrel/>`_
+
+
+Theta at the Argonne Leadership Computing Facility (ALCF)
+---------------------------------------------------------
+This research used resources of the Argonne Leadership Computing
+Facility, which is a DOE Office of Science User Facility supported under
+Contract DE-AC02-06CH11357.
+`ALCF <https://www.alcf.anl.gov>`_
+
+
+Frontera at the Texas Advanced Computing Center (TACC)
+------------------------------------------------------
+`TACC <https://www.tacc.utexas.edu>`_
+
+
+Comet at the San Diego Supercomputing Center (SDSC)
+---------------------------------------------------
+`SDSC <https://www.sdsc.edu>`_
+
 
