@@ -80,19 +80,33 @@ ZINC           21M                                `Petrel <https://app.globus.or
 ZINC15         1.4B          11 TB    147,137     `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FZinc15_descriptors%2F>`_ (`manifest <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FZinc15_descriptors%2Fmanifest%2F>`_)
 ============= ============= ======== ==========  ============
 
+
 Note: "enaDB" is 310,682 ENA+Databank SMILES strings plus computed descriptors; 95 missing are `listed here <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2F>`_.
 
 Molecular Fingerprints
-======================
+====================
 
-============ =========
-enaDB        TBA
-ena15m       `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2FFingerprints%2FEnamine_REAL_diversity_set_15.5M%2F>`_
-pubchem      `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2FFingerprints%2Fpubchem%2F>`_
-Enamine_REAL TBA
-ZINC15       TBA
-SureChEMBL   `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2FFingerprints%2FSureChEMBL%2F>`_
-============ =========
+=============   ============
+Dataset          Location(s)
+=============   ============
+DrugBank        `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ffingerprints%2FDrugBank%2F>`_
+DUDE            `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ffingerprints%2FDUDE%2F>`_
+eMolecule       `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ffingerprints%2FeMolecules%2F>`_
+enaDB           
+ena15m          `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ffingerprints%2FE15%2F>`_
+GDB-13          
+GDB-17          `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ffingerprints%2FGDB17%2F>`_
+HOPV15          `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ffingerprints%2FHOPV15%2F>`_
+L1000           `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ffingerprints%2FL1000%2F>`_
+Moses           `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ffingerprints%2FMoses%2F>`_
+PubChem         
+QM9             `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ffingerprints%2FQM9%2F>`_
+REP             `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ffingerprints%2FREP%2F>`_
+SAVI            `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ffingerprints%2FSAVI%2F>`_
+SureChEMBL      `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FSureChEMBL_descriptors%2F>`_
+ZINC            `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FZINC_descriptors%2F>`_
+ZINC15          `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ffingerprints%2FZINC15%2F>`_
+=============   ============
 
 Molecular Images
 ======================
