@@ -101,7 +101,11 @@ Toxicology
 ----------
 Toxicology assessment is incorporated in the screening pipeline using a suite of machine learning models,
 each trained on different datasets.
-Details on the models and scripts to run them on new datasets are available `on GitHub <https://github.com/globus-labs/toxicity-prediction>`_
+Details on the models and scripts to run them on new datasets are available `on GitHub <https://github.com/globus-labs/toxicity-prediction>`_. 
+Our current ensemble of models include:
+
+- `Tox21 <https://tripod.nih.gov/tox21/challenge/data.jsp>`_-based graph neural networks trained using `DeepChem <https://deepchem.io/>`_. Description: `link <https://github.com/globus-labs/toxicity-prediction/tree/master/deepchem/graph-conv/tox21-screen-results>`_
+- `admetSAR <https://doi.org/10.1021/ci300367a>`_-derived SVMs trained using openbabel+scikit-learn. Description: `link <https://github.com/globus-labs/toxicity-prediction/tree/master/admet/maccs%2Bsvm/screening-results>`_
 
 ============================================  =========== ================================= =============
 Dataset                                           Size        Checksum                       Location(s)
@@ -109,6 +113,8 @@ Dataset                                           Size        Checksum          
 ena+db.can.uniq.csv.bsep.scaffold.class         341 MB    9d1441d895b43f7c7f8a740d4b2aedaf  `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ftoxicology%2F>`_
 ena+db_tox21_screening.csv                      84 MB     89c442d16415fa145a0fb4e112d323c7  `Petrel <https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Ftoxicology%2Ftox21-screen-results%2F>`_
 Enamine_REAL_diversity_set_15M_tox21.csv        4.3 GB    3398960c27415eb27ec4ac577bdd906f  `Petrel <https://app.globus.org/file-manager?destination_id=a386b552-6086-11ea-9688-0e56c063f437&destination_path=%2Fdata%2Ftoxicology%2Ftox21-screen-results%2F>`_
+ena+db_admet.csv                                65 MB     a574f204759be510bc9ccb091fb6c39d  `Petrel <https://app.globus.org/file-manager?destination_id=a386b552-6086-11ea-9688-0e56c063f437&destination_path=%2Fdata%2Ftoxicology%2Fadmet-screen-results%2F>`_
+Enamine_REAL_diversity_set_15_admet.csv         3.4 GB    220473e34067909c7bfdee70018086e1  `Petrel <https://app.globus.org/file-manager?destination_id=a386b552-6086-11ea-9688-0e56c063f437&destination_path=%2Fdata%2Ftoxicology%2Fadmet-screen-results%2F>`_
 ============================================  =========== ================================= =============
 
 Contributing Data
